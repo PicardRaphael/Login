@@ -1,0 +1,314 @@
+{
+	"textures": [
+		{
+			"image": "atlas.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 802,
+				"h": 841
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "textures/sky.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 800,
+						"h": 600
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 800,
+						"h": 600
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 800,
+						"h": 600
+					}
+				},
+				{
+					"filename": "blocks/platform.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 603,
+						"w": 400,
+						"h": 32
+					}
+				},
+				{
+					"filename": "bombs/spine.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 271,
+						"h": 285
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 16,
+						"w": 248,
+						"h": 237
+					},
+					"frame": {
+						"x": 403,
+						"y": 603,
+						"w": 248,
+						"h": 237
+					}
+				},
+				{
+					"filename": "player/left/dude-02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 5,
+						"w": 29,
+						"h": 42
+					},
+					"frame": {
+						"x": 1,
+						"y": 637,
+						"w": 29,
+						"h": 42
+					}
+				},
+				{
+					"filename": "player/left/dude-04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 33,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 5,
+						"w": 29,
+						"h": 42
+					},
+					"frame": {
+						"x": 32,
+						"y": 637,
+						"w": 29,
+						"h": 42
+					}
+				},
+				{
+					"filename": "player/right/dude-02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 5,
+						"w": 29,
+						"h": 42
+					},
+					"frame": {
+						"x": 63,
+						"y": 637,
+						"w": 29,
+						"h": 42
+					}
+				},
+				{
+					"filename": "player/right/dude-04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 5,
+						"w": 29,
+						"h": 42
+					},
+					"frame": {
+						"x": 94,
+						"y": 637,
+						"w": 29,
+						"h": 42
+					}
+				},
+				{
+					"filename": "player/idle/dude-01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 31,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 29,
+						"h": 41
+					},
+					"frame": {
+						"x": 125,
+						"y": 637,
+						"w": 29,
+						"h": 41
+					}
+				},
+				{
+					"filename": "player/left/dude-01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 7,
+						"w": 29,
+						"h": 41
+					},
+					"frame": {
+						"x": 125,
+						"y": 680,
+						"w": 29,
+						"h": 41
+					}
+				},
+				{
+					"filename": "player/left/dude-03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 7,
+						"w": 29,
+						"h": 41
+					},
+					"frame": {
+						"x": 125,
+						"y": 680,
+						"w": 29,
+						"h": 41
+					}
+				},
+				{
+					"filename": "player/right/dude-01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 7,
+						"w": 29,
+						"h": 41
+					},
+					"frame": {
+						"x": 1,
+						"y": 681,
+						"w": 29,
+						"h": 41
+					}
+				},
+				{
+					"filename": "player/right/dude-03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 7,
+						"w": 29,
+						"h": 41
+					},
+					"frame": {
+						"x": 1,
+						"y": 681,
+						"w": 29,
+						"h": 41
+					}
+				},
+				{
+					"filename": "items/star.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 22
+					},
+					"frame": {
+						"x": 32,
+						"y": 681,
+						"w": 24,
+						"h": 22
+					}
+				},
+				{
+					"filename": "bombs/default.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 14
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 14
+					},
+					"frame": {
+						"x": 32,
+						"y": 705,
+						"w": 14,
+						"h": 14
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:8887c4e670040dc39fbaca4c0c141e35:c924651c0ecb957e483121bd5b7b0b39:a759b6bbc8381ac9c472b28f589ad0d6$"
+	}
+}

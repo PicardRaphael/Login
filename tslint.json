@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "tslint-eslint-rules-recommended"
+  ],
+  "rulesDirectory": [
+    "node_modules/tslint-eslint-rules/dist/rules"
+  ],
+  "rules": {
+    "no-unused-variable": null
+  },
+  "linterOptions": {
+    "exclude": [
+      "node_modules/*",
+      "**/*.js"
+    ]
+  }
+}
