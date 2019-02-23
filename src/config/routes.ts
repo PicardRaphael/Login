@@ -6,7 +6,7 @@ export default [
       path: '/signup',
       exact: true,
       component: Signup,
-    }
+    },
     {
       id: 'Signup',
       path: '/',
